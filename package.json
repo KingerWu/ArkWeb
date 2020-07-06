@@ -1,0 +1,19 @@
+{
+  "name": "arkweb",
+  "version": "1.0.0",
+  "description": "see wiki agin.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingerWu/ArkWeb.git"
+  },
+  "author": "KingerWu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KingerWu/ArkWeb/issues"
+  },
+  "homepage": "https://github.com/KingerWu/ArkWeb#readme"
+}
