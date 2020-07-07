@@ -35,6 +35,30 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  beforeCreate: function() {
+    console.log("子", "beforeCreate");
+  },
+  created: function() {
+    console.log("子", "created");
+  },
+  beforeMount: function() {
+    console.log("子", "beforeMount");
+  },
+  mounted: function() {
+    console.log("子", "mounted");
+  },
+  beforeUpdate: function() {
+    console.log("子", "beforeUpdate");
+  },
+  updated: function() {
+    console.log("子", "updated");
+  },
+  beforeDestroy: function() {
+    console.log("子", "beforeDestroy");
+  },
+  destroyed: function() {
+    console.log("子", "destroyed");
   }
 }
 </script>
